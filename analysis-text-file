@@ -1,0 +1,36 @@
+Work
+  fields:
+    name:string
+    description:text
+    icon:string
+
+User
+  fields:
+    email:string
+    role:string
+    password:string
+    name:string
+    contact1:string
+    contact2:string
+    profile_photo:string
+    address:string
+    latitude:float
+    longitude:float
+
+  Associations:
+    has_one :student_profile
+    has_one :empolyeer_profile
+
+StudentProfile
+  fields: 
+    age:integer
+    school_name:string
+    board:string
+    percentage:float
+    college_name:string
+    univercity:string
+    course_name:string
+    branch:string
+    current_semester:string
+    school_result_proof:string
+    college_result_proof:string
