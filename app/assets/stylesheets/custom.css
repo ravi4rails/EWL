@@ -14,3 +14,18 @@
     background-image: none;
     border-color: #28a745;
 }
+.body-section
+{
+  margin-top: 5%;
+  margin-bottom: 5%;
+}
+.acc-row
+{
+  margin-left: 0px;
+  margin-right: 0px;
+  padding-top: 3%;
+}
+.edit-form
+{
+  margin-left: 17%;
+}

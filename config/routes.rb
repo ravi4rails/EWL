@@ -1,6 +1,8 @@
 Rails.application.routes.draw do
   root 'home#index'
-
+  resources :accounts
+  
+  get '/update_account' => "accounts#update_account"
   devise_for :users, controllers: {
     sessions: 'users/sessions', 
     registrations: 'users/registrations', 
